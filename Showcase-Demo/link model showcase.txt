@@ -1,0 +1,4 @@
+Vẫn giống với model trong git, nhưng lưu trên drive
+CNN 	https://drive.google.com/drive/folders/1QiTPba9c916OZLXHU9c3F_VN_TQ-PEYm
+RES FE 	https://drive.google.com/drive/folders/1-CKKgpis2PShA3wQL1F9Rkq5i-Yv6hCm
+ALEX NET https://drive.google.com/drive/folders/1Eq9vKx2fNiG1zSA6CHRS4cSNJrvu5soI

@@ -1,0 +1,2 @@
+test-resnetv2-error-case.ipynb https://www.kaggle.com/code/trnhuy2107/test-resnetv2-error-case/notebook
+demo.ipynb https://colab.research.google.com/drive/1YAYRUe2VqV22po1fhVHvoWZjkHFuyAjk?usp=sharing
