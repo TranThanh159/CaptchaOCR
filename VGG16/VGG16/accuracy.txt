@@ -1,0 +1,6 @@
+val:
+Correct characters predicted : 80.74%
+Correct words predicted      : 45.76%
+test:
+Correct characters predicted : 79.87%
+Correct words predicted      : 44.45%

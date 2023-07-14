@@ -1,0 +1,30 @@
+__________________________________________________________________________________________________
+ Layer (type)                   Output Shape         Param #     Connected to                     
+==================================================================================================
+ image (InputLayer)             [(None, 200, 50, 3)  0           []                               
+                                ]                                                                 
+                                                                                                  
+ model (Functional)             (None, 50, 12, 256)  1735488     ['image[0][0]']                  
+                                                                                                  
+ reshape (Reshape)              (None, 50, 3072)     0           ['model[0][0]']                  
+                                                                                                  
+ dense1 (Dense)                 (None, 50, 64)       196672      ['reshape[0][0]']                
+                                                                                                  
+ dropout (Dropout)              (None, 50, 64)       0           ['dense1[0][0]']                 
+                                                                                                  
+ bidirectional (Bidirectional)  (None, 50, 256)      197632      ['dropout[0][0]']                
+                                                                                                  
+ bidirectional_1 (Bidirectional  (None, 50, 128)     164352      ['bidirectional[0][0]']          
+ )                                                                                                
+                                                                                                  
+ label (InputLayer)             [(None, None)]       0           []                               
+                                                                                                  
+ dense2 (Dense)                 (None, 50, 62)       7998        ['bidirectional_1[0][0]']        
+                                                                                                  
+ ctc_loss (CTCLayer)            (None, 50, 62)       0           ['label[0][0]',                  
+                                                                  'dense2[0][0]']                 
+                                                                                                  
+==================================================================================================
+Total params: 2,302,142
+Trainable params: 566,654
+Non-trainable params: 1,735,488
